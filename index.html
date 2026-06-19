@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Universitario - David Ríos</title>
+    <style>
+        /* Estilos visuales de la página */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #1e293b;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.3em;
+            letter-spacing: 0.5px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1em;
+            color: #cbd5e1;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #0f172a;
+            border-left: 5px solid #3b82f6;
+            padding-left: 12px;
+            font-size: 1.4em;
+        }
+        p {
+            font-size: 1.05em;
+            color: #475569;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f8fafc;
+            color: #1e293b;
+            font-weight: bold;
+        }
+        tr:hover {
+            background-color: #fcfdfe;
+        }
+        .curso-titulo {
+            font-weight: bold;
+            color: #0f172a;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .curso-desc {
+            font-size: 0.9em;
+            color: #64748b;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #1d4ed8;
+        }
+        .no-link {
+            color: #94a3b8;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #64748b;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>David Renato Jesús Ríos Calvera</h1>
+        <p>Estudiante de Ciencia de la Computación | Universidad Católica San Pablo</p>
+    </header>
+
+    <div class="container">
+
+        <section id="perfil">
+            <h2>Descripción Personal</h2>
+            <p>
+                Soy estudiante de Ciencia de la Computación de primer semestre. Nacido el 18 de octubre de 2008 (17 años). Me interesa profundamente la programación y sus distintos lenguajes. Me gustaría aprender C++ y C para extender mis habilidades como programador.
+            </p>
+            <p>
+                <strong>Contacto Profesional:</strong> 
+                <a href="https://www.linkedin.com/in/renato-rios-5797a7417" target="_blank">Mi Perfil de LinkedIn</a>
+            </p>
+        </section>
+
+
+        <section id="cursos">
+            <h2>Cursos del Semestre y Docentes</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 45%;">Curso y Descripción</th>
+                        <th style="width: 30%;">Profesor</th>
+                        <th style="width: 25%;">Enlace Profesional</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Introducción a la Computación</span>
+                            <span class="curso-desc">Conceptos fundamentales de la informática, hardware, software y la evolución de la tecnología.</span>
+                        </td>
+                        <td>Ernesto Cuadros Vargas</td>
+                        <td><a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Perfil de LinkedIn</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Introducción a la Programación</span>
+                            <span class="curso-desc">Desarrollo de lógica algorítmica y bases para la resolución de problemas mediante código.</span>
+                        </td>
+                        <td>Kelly Vizconde La Motta</td>
+                        <td><a href="https://www.linkedin.com/in/kelly-vizconde-la-motta-3a57a4143/" target="_blank">Perfil de LinkedIn</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Fundamentos Matemáticos para Computación</span>
+                            <span class="curso-desc">Bases lógicas y matemáticas necesarias para el análisis y diseño de algoritmos.</span>
+                        </td>
+                        <td>Sabrina Suarez Calcina</td>
+                        <td><span class="no-link">Página no encontrada</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Comunicación I</span>
+                            <span class="curso-desc">Desarrollo de habilidades de expresión oral, comprensión lectora y redacción de textos.</span>
+                        </td>
+                        <td>Angel Rodríguez Cruz</td>
+                        <td><span class="no-link">Página no encontrada</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Introducción a la Vida Universitaria</span>
+                            <span class="curso-desc">Orientación académica, metodologías de estudio y adaptación al entorno universitario.</span>
+                        </td>
+                        <td>Pierina Pacheco Leyton</td>
+                        <td><span class="no-link">Página no encontrada</span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="curso-titulo">Lógica y Gnoseología</span>
+                            <span class="curso-desc">Estudio del razonamiento crítico, la validez del pensamiento y la teoría del conocimiento.</span>
+                        </td>
+                        <td>Yahaira Byrne Ribera</td>
+                        <td><span class="no-link">Página no encontrada</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section id="companeros">
+            <h2>Red de Compañeros</h2>
+            <p>Enlaces directos a los repositorios y portafolios de mis compañeros de clase:</p>
+            <ul>
+                <li><a href="https://diegoalonsoaragonmamani.github.io/DiegoAlonsoAragonMamani/" target="_blank">Portafolio de Diego Aragon</a></li>
+                <li><a href="https://fernandofrisancho.github.io/Fernando-Frisancho/" target="_blank">Portafolio de Fernando Frisancho</a></li>
+                <li><a href="https://santixdeo.github.io/CarlosSaldivar.github.io/" target="_blank">Portafolio de Carlos Saldivar</a></li>
+                <li><a href="https://cessar13.github.io/CesarChampion.github.io/" target="_blank">Portafolio de Cesar Champion</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Trabajo Universitario | Ciencia de la Computación</p>
+    </footer>
+
+</body>
+</html>
